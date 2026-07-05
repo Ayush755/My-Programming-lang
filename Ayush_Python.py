@@ -1,7 +1,7 @@
 # to print anything
 print('Hellow ayush')
 #to print multiple line
-print("""name : Ayush age:20 loves:SJ""")
+print("""name : Ayush age:20 loves:S.jha""")
 #to assignment a value to a variable
 a=10
 print(a)
@@ -67,3 +67,68 @@ print(n)
 k=5
 k%=2 #remainder
 print(k)
+#comparision operator (<,>,==,<=,>=)
+a,b,c=1,5,2
+print(a<c)
+print(b==a)
+print(c<a)
+print(a<=c)
+print(b>=a)
+#Logical operator (and, or, not(!=))
+print(a==c and b>=c)
+print(b<=c or a<b)
+print(a!=8) #a is not equal to 8 is true
+print(not(a!=8))  #true ka not karenge toh false ayega
+#if operators
+
+a=10 #ex-1
+if a>1:
+  print('a one se bara h')
+else :
+  print("pagal h kya")
+
+
+a=5 #ex-2
+if a<1:
+  print("a bara h 1 se")
+else :
+  print("pagal h kya chota kayse hoga?")
+
+
+num= int(input("enter a no:")) #ex-3
+if num>0 :
+  print(num,"is positive")
+else :
+  print(num,"is negative")
+
+#elif (if...else) operators
+num = float(input("enter a no:"))
+if num>0 :
+  print(num,"is positive")
+elif num==0:
+  print("no is zero")
+elif num==1:
+  print("no is one") #multiple statement desakete h
+else:
+  print(num,"is negative")
+
+#PROJECT 1= SIMPLE CALCULATOR
+print("btao kya calculate karna h?")
+operator= input("koi 1 choose karo +,-,/,*:" )
+n1=float(input("1st no daalo :"))
+
+n2=float(input("2nd no daalo :"))
+if operator== '+':
+    print(n1,'+',n2,"=",n1+n2)
+    print("sum ayega :",n1+n2)
+elif operator == '-':
+    print(n1,'-',n2,"=",n1-n2)
+    print("difference ayega :",n1-n2)
+elif operator =='*':
+    print(n1,'*',n2,"=",n1*n2)
+    print(" product ayega :",n1*n2)
+elif operator=='/':
+    print(n1,'/',n2,"=",n1/n2)
+    print("division hoga :",n1/n2)
+else :
+    print("unnhi 4 operator me se ek chunna tha BEWAKOOF!!" )

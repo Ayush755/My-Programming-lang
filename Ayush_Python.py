@@ -1,7 +1,7 @@
 # to print anything
 print('Hellow ayush')
 #to print multiple line
-print("""name : Ayush age:20 loves:S.jha""")
+print("""name : Ayush age:20 loves:S.j""")
 #to assignment a value to a variable
 a=10
 print(a)
@@ -132,3 +132,63 @@ elif operator=='/':
     print("division hoga :",n1/n2)
 else :
     print("unnhi 4 operator me se ek chunna tha BEWAKOOF!!" )
+#While loop
+a=2
+i=0
+while i<=a : #condition jab tak true h
+  print('ayush')
+  i=i+1 #i=0,1,2,3 pe print hoga
+#while else loop
+a=3
+n=2
+i=0
+while i<=a:
+    print("AYUSH")
+    i=i+1
+else :   #while loop hone k baad chalega
+    print("SIN")
+#For loop...(Sum of n natural numbers)
+list_1 = [ 'A' ,'B' ,'C']
+range_1 = range(1,11) #1 se 10 tak
+for item in list_1 :
+    print(item)
+for i in range_1 :
+    print(i)
+#to find sum of n natural no.
+    numbers = range(1,101) #1 to 100 tak
+    sum = 0
+for item in numbers:
+  sum=sum+item #(sum=0+1=1,sum=1+2=3....)
+
+print('Sum=',sum)
+
+#for loop and else loop (ERROR H SYAD)
+
+number= range(1, 10) #1 se 9 tak
+add = 0           #initial sum zero h
+for item in number:
+    add=add+item
+    print('SUM :',add)
+
+else :
+  print('yhi answer h')
+
+#creating a table
+n=12
+no = range(1, 11)
+for i in no :
+  print(n,'x',i ,'=',n*i)
+
+#Break and continue python
+number= [1,73,83,-28,9,-98]
+
+for val in number : #ex-1
+  if val < 0 : #value -ve hote hi loop close ho gya
+    break
+  print(val)
+
+number =[22222,73,-28,-23,18]
+for val in number: #ex-2
+  if val< 0 : #-ve no exclude ho gya
+    continue 
+  print(val)

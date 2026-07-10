@@ -1,7 +1,7 @@
 # to print anything
 print('Hellow ayush')
 #to print multiple line
-print("""name : Ayush age:20 loves:S.j""")
+print("""name : Ayush age:20""")
 #to assignment a value to a variable
 a=10
 print(a)
